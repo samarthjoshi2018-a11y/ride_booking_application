@@ -427,17 +427,14 @@ class client{
 
 int main() {
 
-    // Create the Driver Manager and add drivers
     Driver_manager& dm = Driver_manager::getInstance();
 
     dm.add_driver("Driver_A");
     dm.add_driver("Driver_B");
     dm.add_driver("Driver_C");
 
-    // Create a client
     client c;
 
-    // User requests a ride
     Location userLocation(50, 50);
 
     c.set_request(
@@ -447,14 +444,9 @@ int main() {
         userLocation     // user's current location
     );
 
-    // Request the ride
     c.request_ride();
 
     cout << "\n--- Ending Ride ---\n";
-
-    // Since client doesn't expose the assigned Driver,
-    // for this demo we directly end the ride through the manager's
-    // internal driver list would require another method.
     
     return 0;
 }
