@@ -215,7 +215,7 @@ Concrete strategies can be used through the `strategy` interface.
 
 ---
 
-# ⚙️ Assumptions
+# Assumptions
 
 The following assumptions are made to keep the implementation simple:
 
