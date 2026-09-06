@@ -167,7 +167,7 @@ This ensures that driver management is centralized within the application.
 
 ---
 
-## 4. State-Based Ride Completion
+## 4. State-Based Ride Completion and Chain of Responsibility hybrid pattern
 
 Ride completion is represented through multiple stages:
 
@@ -232,7 +232,7 @@ The following assumptions are made to keep the implementation simple:
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 The system can be extended with:
 
@@ -252,7 +252,7 @@ The system can be extended with:
 
 ---
 
-# ▶️ Example Flow
+# Example Flow
 
 ```text
 User creates Request
@@ -294,6 +294,7 @@ Ride marked Completed
 - Polymorphism
 - SOLID Principles
 - Strategy Pattern
+- Chain of Responsibility
 - Factory Pattern
 - Singleton Pattern
 - State-based design
@@ -305,4 +306,4 @@ Ride marked Completed
 
 **Samarth Joshi**
 
-This project is developed for learning and demonstrating **Low Level Design and Design Patterns in C++**.give me the text without icons
+This project is developed for learning and demonstrating **Low Level Design and Design Patterns in C++**.
